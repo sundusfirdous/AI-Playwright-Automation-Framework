@@ -109,8 +109,11 @@ AI-PLAYWRIGHT-AUTOMATION-FRAMEWORK
 ├── README.md
 └── .gitignore
 ```
+---
+
+# 🏗 Project Architecture
+
 ```text
-# ⚙ Framework Architecture
 
 
                     ┌─────────────────────┐
@@ -213,9 +216,11 @@ AI-PLAYWRIGHT-AUTOMATION-FRAMEWORK
 │ Videos                        │
 └───────────────────────────────┘
 ---
----
 
 # ⚙ Technology Stack
+
+```text
+
 
 | Technology     | Purpose               |
 | -------------- | --------------------- |
