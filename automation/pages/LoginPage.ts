@@ -20,9 +20,6 @@ export class LoginPage {
                 this.page,
                 [
                     "#user-name-broken",
-                    // "#username",
-                    // "[name='username']",
-                    // "//input[contains(@id,'user')]"
                 ]
             );
 
