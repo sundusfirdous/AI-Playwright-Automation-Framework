@@ -108,8 +108,11 @@ AI-PLAYWRIGHT-AUTOMATION-FRAMEWORK
 │
 ├── README.md
 └── .gitignore
+---
 
-```
+# ⚙ Framework Architecture
+
+
                     ┌─────────────────────┐
                     │     User Story      │
                     │ Jira / URL / Req    │
@@ -209,7 +212,7 @@ AI-PLAYWRIGHT-AUTOMATION-FRAMEWORK
 │ HTML Reports / Screenshots    │
 │ Videos                        │
 └───────────────────────────────┘
-
+---
 ---
 
 # ⚙ Technology Stack
