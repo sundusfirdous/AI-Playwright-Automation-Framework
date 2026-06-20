@@ -111,7 +111,7 @@ AI-PLAYWRIGHT-AUTOMATION-FRAMEWORK
 ```
 ---
 
-# 🏗 Project Architecture
+# 🚀 Architecture Diagram
 
 ```text
 
