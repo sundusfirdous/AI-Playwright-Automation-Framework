@@ -1,4 +1,4 @@
-# 🚀 GenAI Playwright Automation Framework ★★★★★
+# 🚀 AI Playwright Automation Framework ★★★★★
 
 An AI-Powered Test Automation Framework built using:
 
@@ -109,10 +109,119 @@ AI-PLAYWRIGHT-AUTOMATION-FRAMEWORK
 ├── README.md
 └── .gitignore
 ```
+---
 
+# 🚀 Architecture Diagram
+
+```text
+
+
+                    ┌─────────────────────┐
+                    │     User Story      │
+                    │ Jira / URL / Req    │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                 ┌──────────────────────────┐
+                 │ AI Test Case Generator   │
+                 │ Ollama + Python          │
+                 └──────────┬───────────────┘
+                            │
+                            ▼
+                  Generated Test Cases
+                            │
+                            ▼
+
+┌──────────────────────────────────────────────────────────────┐
+│          AI-Powered Playwright Automation Framework          │
+└──────────────────────────────────────────────────────────────┘
+
+                            │
+                            ▼
+
+┌──────────────────────────────────────────────────────────────┐
+│                    Playwright + TypeScript                  │
+└──────────────────────────────────────────────────────────────┘
+
+                 │                          │
+                 ▼                          ▼
+
+         ┌──────────────┐          ┌──────────────┐
+         │ UI Testing   │          │ API Testing  │
+         └──────┬───────┘          └──────────────┘
+                │
+                ▼
+
+┌───────────────────────────────┐
+│ Self-Healing Locator Engine   │
+└──────────────┬────────────────┘
+               │
+               ▼
+
+         Locator Failed?
+               │
+          Yes  ▼
+
+┌───────────────────────────────┐
+│ repair_locator.py             │
+│ DOM Analysis (BeautifulSoup)  │
+└──────────────┬────────────────┘
+               │
+               ▼
+
+┌───────────────────────────────┐
+│ AI Locator Ranking            │
+│ Confidence Scoring            │
+└──────────────┬────────────────┘
+               │
+               ▼
+
+┌───────────────────────────────┐
+│ locatorStore.json             │
+│ Learned Locators              │
+└──────────────┬────────────────┘
+               │
+               ▼
+
+      Retry Test Automatically
+
+────────────────────────────────────────────
+
+┌───────────────────────────────┐
+│ AI Test Data Generator        │
+│ Ollama + Python               │
+└───────────────────────────────┘
+
+────────────────────────────────────────────
+
+┌───────────────────────────────┐
+│ AI Failure Analyzer           │
+│ Root Cause Analysis           │
+│ Confidence %                  │
+│ Screenshot Analysis           │
+└───────────────────────────────┘
+
+────────────────────────────────────────────
+
+┌───────────────────────────────┐
+│ Docker Execution              │
+└───────────────────────────────┘
+
+┌───────────────────────────────┐
+│ GitHub Actions CI/CD          │
+└───────────────────────────────┘
+
+┌───────────────────────────────┐
+│ HTML Reports / Screenshots    │
+│ Videos                        │
+└───────────────────────────────┘
+```
 ---
 
 # ⚙ Technology Stack
+
+```text
+
 
 | Technology     | Purpose               |
 | -------------- | --------------------- |
@@ -126,7 +235,7 @@ AI-PLAYWRIGHT-AUTOMATION-FRAMEWORK
 | Ollama         | Local LLM Support     |
 | Gemma          | Generative AI         |
 | OpenAI APIs    | Future Integration    |
-
+```
 ---
 
 # 🎯 Framework Capabilities
