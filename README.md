@@ -867,5 +867,3 @@ Build an Autonomous AI Testing Platform capable of:
 * Analyzing Failures
 * Learning From Executions
 * Reducing Human Maintenance
-
-★★★★★ GenAI Playwright Automation Framework
