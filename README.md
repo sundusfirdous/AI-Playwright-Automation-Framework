@@ -215,6 +215,7 @@ AI-PLAYWRIGHT-AUTOMATION-FRAMEWORK
 │ HTML Reports / Screenshots    │
 │ Videos                        │
 └───────────────────────────────┘
+```
 ---
 
 # ⚙ Technology Stack
