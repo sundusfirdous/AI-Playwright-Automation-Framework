@@ -108,8 +108,8 @@ AI-PLAYWRIGHT-AUTOMATION-FRAMEWORK
 │
 ├── README.md
 └── .gitignore
----
-
+```
+```text
 # ⚙ Framework Architecture
 
 
@@ -229,7 +229,7 @@ AI-PLAYWRIGHT-AUTOMATION-FRAMEWORK
 | Ollama         | Local LLM Support     |
 | Gemma          | Generative AI         |
 | OpenAI APIs    | Future Integration    |
-
+```
 ---
 
 # 🎯 Framework Capabilities
